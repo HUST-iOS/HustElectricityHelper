@@ -11,11 +11,20 @@ build/
 !default.perspectivev3
 xcuserdata
 *.xccheckout
+*.xcuserstate
+*.xcworkspace
+
 *.moved-aside
 DerivedData
 *.hmap
 *.ipa
-*.xcuserstate
+.DS_Store
+.*.sw?
+*.cso
+tmp
+console.log
+.Trashes
+*.swp
 
 # CocoaPods
 #
@@ -24,3 +33,4 @@ DerivedData
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
 #
 #Pods/
+*.lock
