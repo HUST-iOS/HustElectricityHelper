@@ -20,11 +20,40 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/SQLCipher (2.5):
+    - FMDB/common
+    - SQLCipher
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - Masonry (0.6.2)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SQLCipher (3.1.0):
+    - SQLCipher/standard (= 3.1.0)
+  - SQLCipher/common (3.1.0)
+  - SQLCipher/standard (3.1.0):
+    - SQLCipher/common
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
+  - FMDB
+  - FMDB/SQLCipher
+  - Masonry
+  - ReactiveCocoa
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SQLCipher: c44fcca49c31483c2489cfb79aa7a69407f3794a
 
 COCOAPODS: 0.37.0
